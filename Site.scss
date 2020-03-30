@@ -1,0 +1,43 @@
+.chr-Site {
+  // Any default styling for Site goes here
+
+  // Set any default layout specific styling for child components here
+  // such as default widths, display types or margins.
+  &-mainContent {}
+
+  &-navigationHeader {}
+
+  &-sideBar {}
+
+  &-sideContent {}
+
+  &--bespokeNavOpen {
+    .chr-Site {
+
+      // Layout only styling for child components when qdpOpen modifier is set
+      // such as different widths, display types or margins.
+      &-mainContent {}
+
+      &-navigationHeader {}
+
+      &-sideBar {}
+
+      &-sideContent {}
+    }
+  }
+
+  &--qdpOpen {
+    .chr-Site {
+
+      // Layout only type of styling for child components when qdpOpen modifier is set
+      // such as different widths, display types or margins.
+      &-mainContent {}
+
+      &-navigationHeader {}
+
+      &-sideBar {}
+
+      &-sideContent {}
+    }
+  }
+}
